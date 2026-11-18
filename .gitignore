@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Logs and temp files
+*.log
+*.tmp
+.cache/
+
+# Dependencies and build output (if a build step is added later)
+node_modules/
+dist/
+build/
+
+# Environment and secrets
+.env
+.env.*
